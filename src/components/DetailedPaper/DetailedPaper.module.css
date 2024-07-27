@@ -1,0 +1,24 @@
+.active_list_item {
+    @apply bg-blue-600 rounded-lg px-5 py-3 mb-5 mx-3 shadow-md
+    text-white
+    hover:bg-blue-700  ;
+}
+
+.list_item {
+    @apply bg-slate-200 rounded-lg px-5 py-3 mb-5 mx-3
+    hover:bg-slate-300 hover:text-blue-500;
+}
+
+.btn {
+    @apply text-white py-2 px-4 mt-8 uppercase rounded bg-blue-400 shadow hover:bg-blue-500 hover:shadow-lg font-medium transition transform hover:-translate-y-0.5 mx-2;
+}
+
+.btn_disabled {
+    @apply text-white py-2 px-4 mt-8 uppercase rounded bg-slate-300 shadow hover:bg-slate-400 hover:shadow-lg font-medium transition transform hover:-translate-y-0.5 mx-2 cursor-not-allowed;
+}
+
+
+.status_card{
+    @apply  rounded-lg px-10 py-3 text-gray-800 mb-5
+     ;
+}
